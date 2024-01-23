@@ -19,7 +19,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'bike-primary': '#e76f51',
+                        'basic-color': '#131318',
                         'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
                     }
                 }
@@ -28,21 +28,30 @@
     </script>
 
     <!-- CUSTOM STYLES -->
+    <style>
+        @font-face{
+            font-family: Manrope-VariableFont_wght;
+            src: url(./fonts/Manrope-VariableFont_wght.ttf);
+        } 
+        .font-manrope{
+            font-family: Manrope-VariableFont_wght;
+        }
+    </style>
 </head>
-<body>
+<body class="font-manrope">
     <header>
         <!-- TOP NAVIGATION SECTION -->
         <!-- <nav></nav> -->
         <!-- SLIDER SECTION -->
         <div class="container mx-auto lg:px-16 px-4">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full bg-[url(./images/1.png)] h-[60vh] lg:py-20 bg-contain lg:bg-cover bg-center bg-no-repeat">
+                <div id="slide1" class="carousel-item w-full bg-[url(./images/1.png)] h-[60vh] lg:py-20 bg-contain lg:bg-cover bg-center bg-no-repeat">
                     <!-- <img src="./images/1.png" class="w-full" /> -->
-                    <div class="relative flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="absolute bottom-10 lg:-bottom-12 left-24 lg:left-4 lg:text-2xl text-white bg-black py-1 px-3 rounded-full">
+                    <div class="relative">
+                        <a href="#slide4" class="absolute bottom-10 lg:-bottom-7 left-[120px] lg:left-4 lg:text-2xl text-white bg-black py-1 px-3 rounded-full">
                             <i class="fa-solid fa-angle-left"></i>
                         </a>
-                        <a href="#slide2" class=" absolute bottom-10 lg:-bottom-12 left-36 lg:left-16 lg:text-2xl text-white bg-black py-1 px-3 rounded-full">
+                        <a href="#slide2" class=" absolute bottom-10 lg:-bottom-7 left-[164px] lg:left-16 lg:text-2xl text-white bg-black py-1 px-3 rounded-full">
                             <i class="fa-solid fa-angle-right"></i>
                         </a>
                     </div>
@@ -51,7 +60,100 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <!-- Professional Hockeys Club -->
+        <section class="my-24">
+            <div class="container mx-auto lg:px-16 px-4">
+                <!-- TITLE PART -->
+                <hr style="height: 0; border: 1px dashed #13131833; opacity: .5;">
+                <div class="text-center lg:px-64 lg:py-8 py-6">
+                    <h1 class="pb-3 lg:pb-6 lg:text-4xl text-[22px] font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+                    <p class="text-[14px] lg:text-base text-[#13131899]">
+                        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                        proin.
+                    </p>
+                </div>
+                <hr style="height: 0; border: 1px dashed #13131833; opacity: .5;">
+                <!-- CONTENT PART -->
+                <div class="py-12 flex lg:flex-row flex-col">
+                    <div class="text-center">
+                        <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-basic-color">87%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Prayer Facility</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-basic-color">95%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Experienced Coach</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-basic-color">90%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Senior Player</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-basic-color">80%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Training Ground</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Program Sections -->
+        <section class="my-24">
+            <div class="container mx-auto lg:px-16 px-4">
+                <!-- TITLE PART -->
+                <hr style="height: 0; border: 1px dashed #13131833; opacity: .5;">
+                <div class="text-center lg:px-64 lg:py-8 py-6">
+                    <h1 class="pb-3 lg:pb-6 lg:text-4xl text-[22px] font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+                    <p class="text-[14px] lg:text-base text-[#13131899]">
+                        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                        proin.
+                    </p>
+                </div>
+                <hr style="height: 0; border: 1px dashed #13131833; opacity: .5;">
+                <!-- CONTENT PART -->
+                <div class="py-12 flex lg:flex-row flex-col">
+                    <div class="text-center">
+                        <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-basic-color">87%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Prayer Facility</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-basic-color">95%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Experienced Coach</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class="text-basic-color">90%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Senior Player</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-basic-color">80%</span></div>
+                        <div>
+                            <h3 class="py-4 text-basic-color text-xl font-semibold">Training Ground</h3>
+                            <p class="text-basic-color">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
     
 </body>
